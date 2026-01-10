@@ -1,7 +1,10 @@
-Nome_produto = "Cadeira Infantil"
-Preco_unitario = 12.40
-Quantidade = 3
+nome_produto = "Cadeira Infantil"
+preco_unitario = 12.40
+quantidade = 3
 
-Preco_total = Preco_unitario * Quantidade
+Preco_total = preco_unitario * quantidade
 
-print(f"Valor total da compra é: RS {Preco_total:.2f}")
+print(f"Produto: {nome_produto}")
+print(f"Quantidade: {quantidade}")
+print(f"Preço Unitário: R$ {preco_unitario:.2f}")
+print(f"Valor total da compra é: R$ {Preco_total:.2f}")
