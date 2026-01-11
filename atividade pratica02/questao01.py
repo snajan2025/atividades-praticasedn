@@ -1,3 +1,4 @@
+# Atividade Prática 02 
 valor_reais = float(input("Digite o valor em reais (R$): "))
 
 cotacao_dolar = 5.37
